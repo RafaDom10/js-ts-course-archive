@@ -1,0 +1,14 @@
+{
+  "name": "ex_110_test_babel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "babel": "babel ./src/main.js -o ./src/bundle.js --presets=@babel/env -w"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.10"
+  }
+}

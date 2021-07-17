@@ -1,0 +1,3 @@
+
+Menssagem escrita com flag "a"
+Menssagem escrita com flag "a"

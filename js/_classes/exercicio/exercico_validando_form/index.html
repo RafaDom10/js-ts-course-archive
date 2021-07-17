@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Template</title>
+</head>
+
+<body>
+
+  <section class="container">
+    <h1>Registration Form</h1>
+    <ul>
+      <li>No fields can be empty</li>
+      <li>User can only contain letters and / or numbers</li>
+      <li>Username must be contain between 3 and 12 characters</li>
+      <li>Userpassword must be contain between 6 and 12 characters</li>
+    </ul>
+
+    <form action="/" method="post" class="form">
+      <label>Name</label>
+      <input type="text" class="name validate">
+      <label>Surname</label>
+      <input type="text" class="surname validate">
+      <label>Cpf</label>
+      <input type="text" class="cpf validate">
+      <label>User</label>
+      <input type="text" class="user validate">
+      <label>Password</label>
+      <input type="password" class="password validate">
+      <label>Confirm password</label>
+      <input type="password" class="password-confirm validate">
+      <button type="submit">enviar</button>
+    </form>
+
+  </section>
+
+  <script src="../validandoCpfClasses.js"></script>
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

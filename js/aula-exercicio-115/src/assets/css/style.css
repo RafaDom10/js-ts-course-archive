@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+/* Criando variaveis para utilização - cores */
+:root {
+
+  --primary-color: #2A2C37;
+  --secondary-color: #24202E;
+  --font-color: #90F9FC;
+}
+
+* {
+
+  box-sizing: border-box;
+  outline: 0;  
+}
+
+body {
+
+  background-color: var(--primary-color);
+  color: var(--font-color);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.0em;
+  line-height: 1.3em;
+  letter-spacing: 1.5px;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Abril Fatface', cursive;  
+  letter-spacing: 2px;
+  color: #957FFD;
+}
+
+p {
+  text-align: justify;
+}
+
+.container {
+
+  max-width: 640px;
+  margin: 20px auto;
+  background: var(--secondary-color);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+form input, form label, form button {
+
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input {
+
+  font-size: 20px;
+  font-weight: bold;
+  height: 30px;
+  padding: 0 20px;
+  background-color: var(--primary-color);
+  color: #72EC7C;  
+}
+
+form input:focus {
+
+  outline: 2px solid #72EC7C;
+}
+
+button {
+
+  border: none;
+  background-color: var(--font-color);
+  color: var(--secondary-color);
+  font-size: 18px;
+  font-weight: bold;
+  height: 30px;
+  cursor: pointer;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+form button:hover {
+  background: #957FFD;
+  transition: background-color .3s;
+}
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.cpf-gerado {
+  font-size: 2em;
+  font-weight: 700;
+  color: #72EC7C;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.btn-div {
+  width: 100%;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bt:hover {
+  background-color: #957FFD;
+}
